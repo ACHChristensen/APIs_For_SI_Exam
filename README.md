@@ -31,7 +31,7 @@ To update a sub-module with the newest from branch, write this command in termin
 Replace [the repository-link] with the same link you will use for cloning the repository:
 ``` git submodule update --remote [the repository-link] ```
 
-### How to change or see which branch the sub-module updates from?
+### How to change or see name of which branch the sub-module updates from?
 To see or change the branch for the sub-modules: 
 1. Go to .gitmodules file in the root of THIS repository (the repository collecting all sub-modules).  
 2. (Optional) - You can change it as well but make sure the branch name is an exact copy of orignal branch name from remote repository (the sub-module's origin).
